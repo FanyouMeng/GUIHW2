@@ -1,0 +1,39 @@
+/*
+ Name: Fanyou Meng
+ Email: Fanyou_Meng@student.uml.edu
+
+ 91.61 GUI Programming I
+ Assignment 2:  Creating Your First Web Page
+ Description: This is the css file for Assignment 2.
+ It tries to simply style the web page.
+*/
+
+
+body {
+  height: 750px;
+ position: relative;
+}
+li {
+  list-style: none;
+  text-align: center;
+  font-size: 22px;
+  line-height: 28px;
+}
+.name {
+  color: #14b7ec;
+  font-size: 24px;
+}
+.course{
+  color: #000000;
+}
+.logo{
+  height: 20%;
+  position:absolute;
+  bottom:0;
+  left: 50%;
+  margin-left: -75px;
+}
+#display li{
+  display: inline;
+  padding: 0 6px 0 6px;
+}
